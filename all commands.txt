@@ -1,0 +1,7 @@
+-:ENVIRONOMENT SETUP:-
+npx create-next-app@latest ai-saas --typescript --tailwind --eslint
+npx shadcn-ui@latest init
+npx shadcn-ui@latest add button
+
+-:CLERK AUTHENTICATION:-
+npm install @clerk/nextjs
